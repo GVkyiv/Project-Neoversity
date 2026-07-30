@@ -1,3 +1,11 @@
+---
+tier: 2
+discipline: ai-fundamentals
+topic: 2
+type: homework
+status: done
+---
+
 **Домашнє завдання: StudyMate, продукт і архітектура**
 
 # Частина 1. Продукт

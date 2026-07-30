@@ -1,3 +1,11 @@
+---
+tier: 2
+discipline: ai-fundamentals
+topic: 9
+type: homework
+status: done
+---
+
 # План імплементації: ChefBot на LangGraph (Тема 9)
 
 **Файл коду:** `yudbox_hw09_chef_bot.ipynb`

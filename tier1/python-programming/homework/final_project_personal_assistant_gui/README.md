@@ -1,4 +1,11 @@
-﻿# Personal Assistant
+﻿---
+tier: 1
+discipline: python-programming
+type: final-project
+status: done
+---
+
+# Personal Assistant
 
 Desktop (CustomTkinter) and CLI application for contacts and notes management.
 

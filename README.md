@@ -77,6 +77,26 @@ GitHub. `.env.example` показує лише назви змінних, без
 `python-dotenv` (`load_dotenv()`), ніколи не хардкодити значення в `.py`/
 `.ipynb`, які потрапляють у git.
 
+## Frontmatter у ДЗ (для Obsidian/Dataview)
+
+Кожна папка/файл ДЗ у `homework/` починається з YAML frontmatter:
+
+```yaml
+---
+tier: 1|2|3
+discipline: python-programming|javascript-fundamentals|...
+topic: 2            # номер теми курсу, якщо застосовно
+type: homework|final-project|scientific-review|reference-material
+status: done|in-progress|planned
+date: 2026-07-30    # тільки якщо дата точно відома, не вигадувати
+---
+```
+
+Додано 30.07.2026, щоб репозиторій можна було відкрити як Obsidian vault і
+будувати автоматичні таблиці статусів плагіном Dataview замість ручного
+ведення в `STATE.md`/`CALENDAR.md`. Коли додаєш нове ДЗ — одразу став цей
+блок зверху файлу чи README папки.
+
 ## Важливо
 
 Це не автоматичний експорт "пам'яті Claude" — Claude не має доступу до окремого

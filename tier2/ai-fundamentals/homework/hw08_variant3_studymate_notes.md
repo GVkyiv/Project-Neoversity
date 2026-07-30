@@ -1,3 +1,11 @@
+---
+tier: 2
+discipline: ai-fundamentals
+topic: 8
+type: homework
+status: done
+---
+
 Варіант 3. Освітній асистент StudyMate
 Продуктовий контекст
 

@@ -1,3 +1,10 @@
+---
+tier: 1
+discipline: python-programming
+type: final-project
+status: done
+---
+
 # Personal Assistant CLI by Purple Unicorns 🦄🦄🦄🦄
 
 Simple personal assistant CLI app for storing contacts and notes

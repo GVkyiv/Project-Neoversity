@@ -1,3 +1,11 @@
+---
+tier: 2
+discipline: ai-fundamentals
+topic: 6
+type: homework
+status: done
+---
+
 **Домашнє завдання: StudyMate, пошук за змістом, дані і ланцюжок виконання**
 
 **Крок 1. Обраний сценарій**
