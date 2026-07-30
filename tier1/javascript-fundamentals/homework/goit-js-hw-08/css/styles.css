@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 24px 0;
+  list-style: none;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-link {
+  display: block;
+  text-decoration: none;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 250ms ease, box-shadow 250ms ease;
+}
+
+.gallery-link:hover .gallery-image,
+.gallery-link:focus .gallery-image {
+  transform: scale(1.04);
+  box-shadow: 0 4px 16px rgba(46, 47, 66, 0.16);
+}
+
+@media (max-width: 1159px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 744px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .gallery-image {
+    width: 100%;
+  }
+}
+
+.modal-gallery {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: calc(100vw - 32px);
+  max-height: calc(100vh - 32px);
+}
+
+.modal-image {
+  display: block;
+  max-width: calc(100vw - 32px);
+  max-height: calc(100vh - 32px);
+}
+
+.modal-button {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 32px;
+  line-height: 1;
+  background-color: rgba(46, 47, 66, 0.72);
+  cursor: pointer;
+  transform: translateY(-50%);
+  transition: background-color 250ms ease;
+}
+
+.modal-button:hover,
+.modal-button:focus {
+  background-color: rgba(46, 47, 66, 0.95);
+}
+
+.modal-button-prev {
+  left: 16px;
+}
+
+.modal-button-next {
+  right: 16px;
+}
+
+@media (max-width: 767px) {
+  .modal-button {
+    width: 40px;
+    height: 40px;
+    font-size: 26px;
+  }
+
+  .modal-button-prev {
+    left: 8px;
+  }
+
+  .modal-button-next {
+    right: 8px;
+  }
+}
+
+@media (max-width: 767px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    max-width: 392px;
+  }
+}

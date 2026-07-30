@@ -1,0 +1,639 @@
+Продуктова рамка і вимоги
+Продуктова рамка
+
+Ця практична робота є опціональною, але вона допоможе перевірити твого асистента в більш реалістичному сценарії. До цього моменту ти взаємодіяв зі своїм ботом через консоль або Jupyter-ноутбук. Для розробки цього достатньо: можна швидко запускати код, бачити проміжні результати й перевіряти логіку агента. Але для користувача такий формат незручний. Йому потрібен зрозумілий інтерфейс, у якому видно, що можна зробити, які дані вже враховані і що відбувається після запиту.
+
+Коли ти переносиш бота у веб-інтерфейс, стають помітними речі, які легко пропустити в консолі. Наприклад, чи зрозуміло користувачу, що система ще обробляє запит. Чи видно, які параметри вже збережені. Чи не губиться відповідь у довгому тексті. Чи достатньо підказок, щоб людина не писала кожен запит “з нуля”.
+
+Це завдання корисне навіть якщо ти не плануєш показувати веб-інтерфейс на захисті фінального проєкту. Достатньо запустити бота в Streamlit, пройти кілька тестових сценаріїв і коротко зафіксувати, що стало зручніше, а де з’явилися нові ризики. Ці спостереження можна використати для фінального UX-аудиту й доопрацювання агента.
+
+
+
+Що потрібно зробити
+
+У цій практиці ти обираєш один із трьох варіантів асистента й переносиш його в базовий Streamlit-інтерфейс. Основна логіка агента має залишитися з теми 8: завдання не в тому, щоб переписати бота, а в тому, щоб додати до нього зручний спосіб взаємодії.
+
+Потрібно:
+
+1. Встановити Streamlit і необхідні бібліотеки.
+
+2. Створити базову структуру застосунку: app.py, .streamlit/secrets.toml, requirements.txt.
+
+3. Реалізувати чат-інтерфейс через st.chat_message() і st.chat_input().
+
+4. Підключити агента з теми 8 без переписування основної логіки.
+
+5. Додати sidebar із параметрами, які відповідають твоєму варіанту.
+
+6. Додати щонайменше 2–3 спеціалізовані UI-компоненти.
+
+7. Пройти тестові сценарії й заповнити короткий UX-аудит.
+
+
+
+Вимоги до виконання
+
+У роботі має бути Streamlit як основний фреймворк. Застосунок має містити повноцінний чат-інтерфейс через st.chat_message() та st.chat_input(), збереження історії через st.session_state, підключеного агента з теми 8 і sidebar із налаштуваннями, які впливають на роботу асистента.
+
+Також потрібно додати стан обробки запиту: streaming через st.write_stream(), st.spinner() або інший зрозумілий індикатор. Користувач не має залишатися в ситуації, коли після відправлення повідомлення незрозуміло, чи система працює, чи зависла.
+
+Окрім чату, додай щонайменше 2–3 компоненти Streamlit, які відповідають твоєму сценарію. Наприклад, для ChefBot це можуть бути st.multiselect() для інгредієнтів і st.checkbox() для дієтичних обмежень; для FitCoach — st.metric() і st.radio(); для StudyMate — st.tabs(), st.progress() або st.expander().
+
+
+
+
+
+За бажанням можна розширити роботу: задеплоїти застосунок на Streamlit Community Cloud, додати кілька вкладок через st.tabs(), реалізувати завантаження файлів через st.file_uploader(), додати просту CSS-стилізацію або збереження історії між перезапусками застосунку.
+
+Ці елементи не є обов’язковими. Вони потрібні лише тоді, коли ти хочеш перевірити складніший сценарій.
+
+
+
+Шаблони для практичних робіт
+Незважаючи на те, що весь код є в конспекті, ми підготували для вас готові шаблони в Google Colab. Це ноутбуки з структурованим кодом, розбитим на комірки, з позначеннями де вставити свої дані.
+
+Щоб почати працювати:
+
+Перейдіть за посиланням до шаблону вашої теми → «Відкрити за допомогою» → «Google Colaboratory»
+Зробіть копію: File → Save a copy in Drive
+Вставте свій API-ключ через Colab Secrets (🔑 іконка зліва)
+Замініть демонстраційні дані на свої відповідно до завдання або кейсу
+Запускайте комірки послідовно зверху вниз (Shift+Enter)
+Місця, де потрібна ваша робота, позначені маркером ✏️.
+
+
+
+Варіант 1. Кулінарний асистент ChefBot
+
+
+
+Продуктова рамка
+
+ChefBot у консолі — це бот, який відповідає на кулінарні запити. ChefBot у веб-інтерфейсі — це інструмент, яким можна користуватися під час готування: одна рука на телефоні, інша на сковорідці. Це принципово різні продуктові сценарії.
+
+Коли переносиш бота у Streamlit, подумай: що користувач хоче бачити одразу при відкритті застосунку? Які дії він робитиме найчастіше? Де холодильник із інгредієнтами має бути завжди видимим, а де він заважає? Ці питання — не про код, а про продукт.
+
+
+
+Особливості реалізації UI
+
+Головна область: чат для обговорення рецептів.
+Бічна панель: список інгредієнтів у холодильнику, multiselect для вибору, фільтри дієтичних обмежень.
+Картки рецептів: через st.container(border=True).
+
+
+Спеціальні компоненти Streamlit
+
+1. st.multiselect() — вибір інгредієнтів із холодильника.
+
+2. st.checkbox() — дієтичні обмеження (без глютену, вегетаріанське).
+
+3. st.container(border=True) — картки рецептів.
+
+4. st.expander() — розгортуваний список інгредієнтів рецепту.
+
+
+
+Інструменти агента (з теми 8)
+
+recipe_search — пошук рецептів за назвою або інгредієнтами.
+unit_converter — конвертація кулінарних одиниць.
+substitution_finder — замінники інгредієнтів.
+
+
+Приклади діалогів для тестування
+
+Що можна приготувати з курки та картоплі?
+Скільки грамів борошна в одній склянці?
+Чим замінити яйця у випічці?
+Запам'ятай, що я не їм глютен — і знайди рецепт без глютену.
+
+
+Підказки з кодом
+
+import streamlit as st
+
+st.set_page_config(
+    page_title="ChefBot — Кулінарний асистент",
+    page_icon="🍳",
+    layout="wide"
+)
+
+st.title("🍳 ChefBot — Кулінарний асистент")
+
+# Ініціалізація стану
+if "messages" not in st.session_state:
+    st.session_state.messages = []
+if "fridge" not in st.session_state:
+    st.session_state.fridge = []
+if "diet_restrictions" not in st.session_state:
+    st.session_state.diet_restrictions = {}
+if "suggested_recipes" not in st.session_state:
+    st.session_state.suggested_recipes = []
+
+# Sidebar з холодильником
+with st.sidebar:
+    st.header("🧊 Мій холодильник")
+
+    available_ingredients = [
+        "курка", "яловичина", "риба", "рис", "макарони",
+        "картопля", "морква", "цибуля", "часник", "помідори",
+        "сир", "молоко", "яйця", "олія", "борошно"
+    ]
+
+    selected = st.multiselect(
+        "Оберіть інгредієнти",
+        options=available_ingredients,
+        default=st.session_state.fridge
+    )
+
+    if st.button("💾 Оновити холодильник"):
+        st.session_state.fridge = selected
+        st.rerun()
+
+    st.divider()
+    st.subheader("🥗 Дієтичні обмеження")
+    vegetarian = st.checkbox("Вегетаріанське")
+    gluten_free = st.checkbox("Без глютену")
+
+    st.session_state.diet_restrictions = {
+        "vegetarian": vegetarian,
+        "gluten_free": gluten_free
+    }
+
+    st.divider()
+    if st.button("🗑️ Очистити чат"):
+        st.session_state.messages = []
+        st.rerun()
+
+# Відображення рецептів як карток
+recipes = st.session_state.suggested_recipes
+if recipes:
+    st.subheader("🍽️ Рекомендовані рецепти")
+    cols = st.columns(min(len(recipes), 3))
+    for i, recipe in enumerate(recipes):
+        with cols[i % 3]:
+            with st.container(border=True):
+                st.subheader(recipe.get("name", "Рецепт"))
+                st.write(f"⏱️ {recipe.get('time', '30 хв')}")
+                st.write(recipe.get("description", ""))
+                with st.expander("📋 Інгредієнти"):
+                    for ing in recipe.get("ingredients", []):
+                        st.write(f"• {ing}")
+
+st.divider()
+
+# Чат-інтерфейс
+for msg in st.session_state.messages:
+    with st.chat_message(msg["role"]):
+        st.write(msg["content"])
+
+# Привітання для нових користувачів
+if not st.session_state.messages:
+    with st.chat_message("assistant"):
+        st.write(
+            "Привіт! Я ChefBot 🍳 Можу знайти рецепти за інгредієнтами, "
+            "конвертувати кулінарні міри та підібрати замінники. "
+            "Додайте інгредієнти в холодильник ліворуч або запитайте мене!"
+        )
+
+# Поле вводу
+if prompt := st.chat_input("Запитайте про рецепт, міри або замінники..."):
+    st.session_state.messages.append({"role": "user", "content": prompt})
+    with st.chat_message("user"):
+        st.write(prompt)
+
+    # Тут підключається агент з теми 8
+    with st.chat_message("assistant"):
+        with st.spinner("ChefBot думає..."):
+            # result = agent.invoke({"messages": st.session_state.messages})
+            # response = result["messages"][-1].content
+            response = f"[Тут відповідь агента на: {prompt}]"
+        st.write(response)
+        st.session_state.messages.append({"role": "assistant", "content": response})
+
+
+
+Можливі розширення
+
+Генерація списку покупок на основі обраних рецептів.
+Інтеграція з реальним API рецептів (Spoonacular, Edamam).
+Планування меню на тиждень через st.dataframe().
+Варіант 2. Фітнес-асистент FitCoach
+
+
+
+Продуктова рамка
+
+FitCoach у консолі — це інструмент для розрахунків. FitCoach у веб-інтерфейсі — це персональний тренер якого відкриваєш перед тренуванням. Ці два сценарії потребують різного UX.
+
+У консолі можна написати довгий запит із усіма параметрами. У веб-застосунку користувач очікує що бот пам'ятає його вагу і зріст і не запитує їх знову кожного разу. Це означає що st.session_state тут вирішує не технічну задачу — він вирішує продуктову: чи виглядає система як персональний асистент, чи як калькулятор.
+
+
+
+Особливості реалізації UI
+
+Головна область: чат для отримання рекомендацій і розрахунків.
+Бічна панель: параметри користувача (вага, зріст, вік), рівень активності, статистика.
+Dashboard: ІМТ і норма калорій після першого розрахунку.
+
+
+Спеціальні компоненти Streamlit
+
+1. st.radio() — вибір рівня активності.
+
+2. st.slider() — інтенсивність тренування.
+
+3. st.metric() — ІМТ, норма калорій, рекомендований дефіцит.
+
+4. st.success() / st.warning() — мотиваційні повідомлення залежно від результату.
+
+
+
+Інструменти агента (з теми 8)
+
+bmi_calculator — розрахунок ІМТ.
+calorie_calculator — норма калорій за формулою Міффліна-Сан Жеора.
+exercise_lookup — вправи за групою м'язів.
+
+
+Приклади діалогів для тестування
+
+Розрахуй мій ІМТ: вага 75 кг, зріст 180 см.
+Яка моя денна норма калорій? (має використати збережені параметри)
+Які вправи на груди можна робити вдома?
+Запам'ятай що я тренуюся вдома — підбери план на тиждень.
+
+
+Підказки з кодом
+
+import streamlit as st
+
+st.set_page_config(
+    page_title="FitCoach — Фітнес-асистент",
+    page_icon="💪",
+    layout="wide"
+)
+
+st.title("💪 FitCoach — Персональний фітнес-асистент")
+
+# Ініціалізація стану
+if "messages" not in st.session_state:
+    st.session_state.messages = []
+if "user_params" not in st.session_state:
+    st.session_state.user_params = {}
+if "last_bmi" not in st.session_state:
+    st.session_state.last_bmi = None
+if "last_calories" not in st.session_state:
+    st.session_state.last_calories = None
+
+# Sidebar з параметрами користувача
+with st.sidebar:
+    st.header("👤 Мої параметри")
+
+    weight = st.number_input("Вага (кг)", min_value=30.0, max_value=300.0, value=70.0, step=0.5)
+    height = st.number_input("Зріст (см)", min_value=100.0, max_value=250.0, value=170.0, step=0.5)
+    age = st.number_input("Вік", min_value=10, max_value=100, value=25)
+    gender = st.radio("Стать", ["Чоловік", "Жінка"])
+
+    activity = st.select_slider(
+        "Рівень активності",
+        options=["мінімальна", "легка", "помірна", "висока", "екстремальна"]
+    )
+
+    if st.button("💾 Зберегти параметри"):
+        st.session_state.user_params = {
+            "weight": weight,
+            "height": height,
+            "age": age,
+            "gender": gender,
+            "activity": activity
+        }
+        st.success("Параметри збережено!")
+
+    st.divider()
+    st.header("🏠 Умови тренування")
+    location = st.radio("Де тренуєшся?", ["вдома", "зал"])
+    st.session_state.training_location = location
+
+    st.divider()
+    if st.button("🗑️ Очистити чат"):
+        st.session_state.messages = []
+        st.rerun()
+
+# Dashboard із результатами розрахунків
+if st.session_state.last_bmi or st.session_state.last_calories:
+    st.subheader("📊 Мої показники")
+    col1, col2, col3 = st.columns(3)
+
+    if st.session_state.last_bmi:
+        bmi_val = st.session_state.last_bmi
+        bmi_status = "норма" if 18.5 <= bmi_val <= 24.9 else ("недостатня вага" if bmi_val < 18.5 else "надмірна вага")
+        col1.metric("ІМТ", f"{bmi_val:.1f}", bmi_status)
+
+    if st.session_state.last_calories:
+        col2.metric("Норма калорій", f"{st.session_state.last_calories:.0f} ккал")
+        col3.metric("Для схуднення", f"{st.session_state.last_calories - 500:.0f} ккал", "-500 ккал/день")
+
+    st.divider()
+
+# Чат-інтерфейс
+for msg in st.session_state.messages:
+    with st.chat_message(msg["role"]):
+        st.write(msg["content"])
+
+# Привітання
+if not st.session_state.messages:
+    with st.chat_message("assistant"):
+        st.write(
+            "Привіт! Я FitCoach 💪 Заповни свої параметри ліворуч, "
+            "і я розрахую твій ІМТ, норму калорій та підберу вправи. "
+            "Або просто запитай!"
+        )
+
+# Поле вводу
+if prompt := st.chat_input("Запитайте про тренування, калорії або ІМТ..."):
+    # Додаємо параметри користувача до контексту якщо є
+    full_prompt = prompt
+    if st.session_state.user_params:
+        params = st.session_state.user_params
+        context = (
+            f"[Параметри користувача: вага {params.get('weight')} кг, "
+            f"зріст {params.get('height')} см, вік {params.get('age')}, "
+            f"стать {params.get('gender')}, активність {params.get('activity')}] "
+        )
+        full_prompt = context + prompt
+
+    st.session_state.messages.append({"role": "user", "content": prompt})
+    with st.chat_message("user"):
+        st.write(prompt)
+
+    with st.chat_message("assistant"):
+        with st.spinner("FitCoach думає..."):
+            # result = agent.invoke({"messages": st.session_state.messages})
+            # response = result["messages"][-1].content
+            response = f"[Тут відповідь агента на: {prompt}]"
+        st.write(response)
+        st.session_state.messages.append({"role": "assistant", "content": response})
+
+# Мотиваційне повідомлення
+streak = st.session_state.get("workout_streak", 0)
+if streak >= 7:
+    st.success(f"🎉 {streak} днів поспіль — неймовірна дисципліна!")
+elif streak >= 3:
+    st.info(f"💪 {streak} дні поспіль, продовжуй!")
+
+
+
+Можливі розширення
+
+Генерація тижневого плану тренувань через st.data_editor().
+Графік прогресу ваги через st.line_chart().
+Таймер для вправ через st.progress().
+Варіант 3. Освітній асистент StudyMate
+
+
+
+Продуктова рамка
+
+StudyMate у консолі — це інструмент де студент вводить запит і отримує відповідь. StudyMate у веб-інтерфейсі — це щось ближче до навчального середовища: тут можна зберігати формули які вже знайшов, бачити план підготовки як структуровану таблицю, і мати поруч довідник із хімічними елементами.
+
+Ключова продуктова ідея для цього варіанта: освітній асистент має не просто відповідати, а допомагати структурувати знання. Чат — це лише один канал. Збережені формули, план по днях, прогрес підготовки — це те що перетворює бот на навчальний інструмент а не пошукову систему.
+
+
+
+Особливості реалізації UI
+
+Головна область: чат для запитань і пояснень.
+Бічна панель: предмет і тема, швидкі дії, кількість вивчених формул.
+Вкладки: чат, збережені формули, план підготовки.
+
+
+Спеціальні компоненти Streamlit
+
+1. st.tabs() — розділення на Чат, Формули, План.
+
+2. st.expander() — розгортувані картки формул зі змінними і прикладом.
+
+3. st.progress() — прогрес підготовки до іспиту.
+
+4. st.metric() — збережено формул, днів до іспиту, годин на день.
+
+
+
+Інструменти агента (з теми 8)
+
+formula_lookup — пошук формул із поясненням змінних.
+unit_converter_physics — конвертація фізичних одиниць.
+periodic_table — інформація про хімічні елементи.
+study_planner — план підготовки до іспиту.
+
+
+Приклади діалогів для тестування
+
+Яка формула кінетичної енергії?
+Поясни цю формулу простіше.
+Переведи 100 км/год у м/с.
+Розкажи про елемент залізо.
+Допоможи спланувати підготовку: 15 тем, 10 днів, 3 години на день.
+
+
+Підказки з кодом
+
+import streamlit as st
+
+st.set_page_config(
+    page_title="StudyMate — Освітній асистент",
+    page_icon="📚",
+    layout="wide"
+)
+
+st.title("📚 StudyMate — Освітній асистент")
+
+# Ініціалізація стану
+if "messages" not in st.session_state:
+    st.session_state.messages = []
+if "saved_formulas" not in st.session_state:
+    st.session_state.saved_formulas = []
+if "study_plan" not in st.session_state:
+    st.session_state.study_plan = None
+if "exam_days" not in st.session_state:
+    st.session_state.exam_days = 10
+
+# Sidebar
+with st.sidebar:
+    st.header("📖 Налаштування")
+
+    subject = st.selectbox(
+        "Предмет",
+        ["Математика", "Фізика", "Хімія", "Усі предмети"]
+    )
+    st.session_state.current_subject = subject
+
+    st.divider()
+    st.header("📅 До іспиту")
+    exam_days = st.number_input("Днів до іспиту", min_value=1, max_value=365, value=10)
+    hours_per_day = st.slider("Годин на день", min_value=1, max_value=12, value=3)
+    st.session_state.exam_days = exam_days
+    st.session_state.hours_per_day = hours_per_day
+
+    st.metric("📅 Залишилось днів", exam_days)
+    st.metric("⏰ Годин всього", exam_days * hours_per_day)
+
+    st.divider()
+    st.header("📊 Прогрес")
+    formulas_saved = len(st.session_state.saved_formulas)
+    st.metric("💾 Збережено формул", formulas_saved)
+
+    if formulas_saved > 0:
+        # Припускаємо що мета — 20 формул
+        progress = min(formulas_saved / 20, 1.0)
+        st.progress(progress)
+        st.caption(f"{formulas_saved} / 20 формул")
+
+    st.divider()
+    if st.button("🗑️ Очистити чат"):
+        st.session_state.messages = []
+        st.rerun()
+
+# Вкладки
+tab_chat, tab_formulas, tab_plan = st.tabs(["💬 Чат", "📐 Формули", "📅 План"])
+
+with tab_chat:
+    # Відображення історії
+    for msg in st.session_state.messages:
+        with st.chat_message(msg["role"]):
+            st.write(msg["content"])
+
+    # Привітання
+    if not st.session_state.messages:
+        with st.chat_message("assistant"):
+            st.write(
+                "Привіт! Я StudyMate 📚 Можу знайти формули з математики, "
+                "фізики та хімії, конвертувати фізичні одиниці, розповісти "
+                "про хімічні елементи та допомогти скласти план підготовки. "
+                "Про що хочеш дізнатися?"
+            )
+
+    # Поле вводу
+    if prompt := st.chat_input("Запитайте про формулу, елемент або попросіть скласти план..."):
+        st.session_state.messages.append({"role": "user", "content": prompt})
+        with st.chat_message("user"):
+            st.write(prompt)
+
+        with st.chat_message("assistant"):
+            with st.spinner("StudyMate шукає відповідь..."):
+                # result = agent.invoke({"messages": st.session_state.messages})
+                # response = result["messages"][-1].content
+                response = f"[Тут відповідь агента на: {prompt}]"
+            st.write(response)
+            st.session_state.messages.append({"role": "assistant", "content": response})
+
+            # Кнопка збереження формули
+            if any(kw in prompt.lower() for kw in ["формул", "formula", "закон", "теорем"]):
+                if st.button("💾 Зберегти цю формулу", key=f"save_{len(st.session_state.messages)}"):
+                    st.session_state.saved_formulas.append({
+                        "query": prompt,
+                        "response": response,
+                        "subject": st.session_state.current_subject
+                    })
+                    st.success("Формулу збережено!")
+                    st.rerun()
+
+with tab_formulas:
+    st.subheader("📐 Збережені формули")
+
+    saved = st.session_state.saved_formulas
+
+    if not saved:
+        st.info(
+            "Ще немає збережених формул. "
+            "Знайди формулу через чат і натисни 'Зберегти'."
+        )
+    else:
+        # Фільтр по предмету
+        subjects = list(set(f.get("subject", "Всі") for f in saved))
+        filter_subject = st.selectbox("Фільтр по предмету", ["Всі"] + subjects)
+
+        filtered = saved if filter_subject == "Всі" else [
+            f for f in saved if f.get("subject") == filter_subject
+        ]
+
+        for i, formula in enumerate(filtered):
+            with st.expander(f"📐 {formula.get('query', f'Формула {i+1}')}"):
+                st.write(formula.get("response", ""))
+                st.caption(f"Предмет: {formula.get('subject', '—')}")
+
+                col1, col2 = st.columns(2)
+                with col2:
+                    if st.button("🗑️ Видалити", key=f"del_formula_{i}"):
+                        st.session_state.saved_formulas.pop(
+                            st.session_state.saved_formulas.index(formula)
+                        )
+                        st.rerun()
+
+with tab_plan:
+    st.subheader("📅 План підготовки до іспиту")
+
+    plan = st.session_state.study_plan
+
+    if plan is None:
+        st.info(
+            "План ще не створено. "
+            "Попроси StudyMate скласти план через чат: "
+            "'Склади план підготовки: 15 тем, 10 днів, 3 години на день'."
+        )
+
+        # Швидке створення плану
+        st.subheader("⚡ Швидке планування")
+        with st.form("quick_plan"):
+            topics_count = st.number_input("Кількість тем", min_value=1, max_value=100, value=15)
+            col1, col2 = st.columns(2)
+            with col1:
+                days = st.number_input("Днів", min_value=1, value=st.session_state.exam_days)
+            with col2:
+                hours = st.number_input("Годин/день", min_value=1, max_value=12,
+                                       value=st.session_state.hours_per_day)
+
+            if st.form_submit_button("📅 Скласти план"):
+                # Тут виклик study_planner tool
+                topics_per_day = topics_count / days
+                total_hours = days * hours
+                hours_per_topic = total_hours / topics_count
+
+                # Простий демо-план
+                plan_data = {
+                    "topics_count": topics_count,
+                    "days": days,
+                    "hours_per_day": hours,
+                    "topics_per_day": round(topics_per_day, 1),
+                    "hours_per_topic": round(hours_per_topic, 1),
+                    "sufficient": total_hours >= topics_count * 1.5
+                }
+                st.session_state.study_plan = plan_data
+                st.rerun()
+    else:
+        # Відображення плану
+        plan = st.session_state.study_plan
+
+        col1, col2, col3 = st.columns(3)
+        col1.metric("📚 Тем всього", plan["topics_count"])
+        col2.metric("📅 Тем на день", plan["topics_per_day"])
+        col3.metric("⏰ Годин на тему", plan["hours_per_topic"])
+
+        if plan["sufficient"]:
+            st.success("✅ Часу достатньо для підготовки!")
+        else:
+            st.warning("⚠️ Часу може не вистачити. Збільш години або скороти обсяг.")
+
+        # Прогрес
+        days_passed = st.slider("Пройдено днів", 0, plan["days"], 0)
+        if plan["days"] > 0:
+            progress = days_passed / plan["days"]
+            st.progress(progress)
+            topics_done = round(days_passed * plan["topics_per_day"])
+            st.caption(f"Приблизно вивчено: {topics_done} / {plan['topics_count']} тем")
+
+        if st.button("🔄 Перепланувати"):
+            st.session_state.study_plan = None
+            st.rerun()
