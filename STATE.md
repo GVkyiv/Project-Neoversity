@@ -13,13 +13,14 @@ _Останнє оновлення: 30.07.2026. Онови вручну, кол�
 
 Паралельно вчуся в магістратурі Neoversity: **Master of Science in Computer
 Science (Specialization in AI Product Management)**, диплом Woolf University.
-Пройдено Tier 1 повністю (Python, JavaScript, Human-Computer Interaction
-Design; ДЗ з HCI завантажені в `tier1/human-computer-interaction-design/homework/`
+Пройдено Tier 1 повністю ([Python](tier1/python-programming/README.md),
+[JavaScript](tier1/javascript-fundamentals/README.md),
+[Human-Computer Interaction Design](tier1/human-computer-interaction-design/README.md)
 — наскрізний проєкт Personal Finance Hub, макети в Figma, коридорне
 тестування, дві рецензії на наукові публікації). Зараз на **Tier 2**, курс
-**AI Fundamentals**, тема 10 (створення інтерфейсів для AI-застосунків).
+[**AI Fundamentals**](tier2/ai-fundamentals/README.md), тема 10 (створення інтерфейсів для AI-застосунків).
 Курс «Генеративний та агентний ШІ» ще не розпочато, це окрема майбутня
-дисципліна. Дати всіх дисциплін і статуси — у `CALENDAR.md`.
+дисципліна. Дати всіх дисциплін і статуси — у [CALENDAR.md](CALENDAR.md).
 
 ## Дипломний проєкт (Capstone)
 
@@ -27,7 +28,8 @@ Design; ДЗ з HCI завантажені в `tier1/human-computer-interaction-
 школярів і студентів молодших курсів. Хімія свідомо виключена — немає достатньої
 бази знань з економічної освіти, щоб контролювати якість. Побудований на
 принципі «відповідає тільки на основі бази знань» — прямий паралель до
-реальних enterprise-кейсів в ERC (див. `erc-work/context.md`, список зростає).
+реальних enterprise-кейсів в ERC (див. [erc-work/context.md](erc-work/context.md), список зростає).
+Деталі архітектури — [capstone-studymate/README.md](capstone-studymate/README.md).
 
 ## Що вже зроблено (Tier 2, AI Fundamentals)
 
@@ -50,7 +52,7 @@ Design; ДЗ з HCI завантажені в `tier1/human-computer-interaction-
 - **Наукова публікація** — завершено 30.07.2026: повний переклад і рецензія
   на статтю «Trust by Interface» (Sun et al., CHI EA '24) про вплив
   інтерфейсу на довіру до інформації від LLM. Файл:
-  `tier2/ai-fundamentals/homework/scientific-review/`. Ключовий інсайт:
+  [tier2/ai-fundamentals/homework/scientific-review/](tier2/ai-fundamentals/homework/scientific-review/README.md). Ключовий інсайт:
   звичка користувача переважає над об'єктивною якістю інтерфейсу; для
   StudyMate голосовий інтерфейс не потрібен (формули на слух не працюють).
 - **Task_001 Variant 3** — LangChain tools + LangGraph агент у Colab, 4
@@ -65,7 +67,7 @@ Design; ДЗ з HCI завантажені в `tier1/human-computer-interaction-
 - Перехід від Streamlit/Gradio-прототипування до окремого API-шару + фронтенду —
   для enterprise-масштабу (1000+ користувачів в ERC).
 - Список реальних AI-проєктів в ERC зростає, не обмежений трьома початковими
-  (див. `erc-work/context.md` для актуального переліку і статусів): додались
+  (див. [erc-work/context.md](erc-work/context.md) для актуального переліку і статусів): додались
   нормалізація кодування/алфавіту в описах товарів, масове розпізнавання PDF,
   і вже реалізований проєкт розпізнавання нарад (нюанси буде додано окремо).
 - ДЗ з Human-Computer Interaction Design довантажено 30.07.2026 (Personal
@@ -77,13 +79,13 @@ Design; ДЗ з HCI завантажені в `tier1/human-computer-interaction-
   груповий фінальний проєкт CLI-помічник, індивідуальний фінальний
   GUI-застосунок Personal Assistant). **Tier 1 повністю наповнено реальними
   ДЗ.** Ще очікується: нюанси проєкту розпізнавання нарад (для
-  `erc-work/context.md`).
+  [erc-work/context.md](erc-work/context.md)).
 
 ## Головна мета репозиторію (уточнено 30.07.2026)
 
 Не просто фіксувати пройдений матеріал. Дві рівнозначні цілі: (1) допомагати
 освоювати курс, (2) для кожної теми свідомо шукати застосування в реальному
-житті і на роботі в ERC. Детально — `erc-work/context.md`.
+житті і на роботі в ERC. Детально — [erc-work/context.md](erc-work/context.md).
 
 ## Прогалини в даних (чесно)
 
@@ -92,5 +94,10 @@ Design; ДЗ з HCI завантажені в `tier1/human-computer-interaction-
 Capstone, Business Case Studies, Data Privacy and AI Regulation, Responsible AI
 Leadership. «Product Analytics» знайдено лише як «Product Analytics and Applied
 Statistics» — ймовірно, версія для іншої спеціалізації, не підтверджено як той
-самий курс. Ці розділи в `PROGRAM.md` позначені як відсутні — не придумувати їх
+самий курс. Ці розділи в [PROGRAM.md](PROGRAM.md) позначені як відсутні — не придумувати їх
 зміст, чекати офіційних матеріалів.
+
+## Пов'язано
+
+[← до README репозиторію](README.md) · [CALENDAR.md](CALENDAR.md) ·
+[DECISIONS_LOG.md](DECISIONS_LOG.md) · [PROGRAM.md](PROGRAM.md)

@@ -20,38 +20,36 @@
 
 ## Структура
 
-```
-neoversity-msc/
-├── PROGRAM.md            # мій навчальний план (відфільтровано з повної таблиці Neoversity)
-├── CALENDAR.md            # дати початку/кінця кожної дисципліни + статус (завершено/в процесі/заплановано)
-├── STATE.md               # де я зараз, що зроблено, що далі
-├── DECISIONS_LOG.md        # закріплені висновки з курсу — не перегравати заново
-├── prompts/                 # багаторазові промпти (наукова стаття, python-tutor, vibe coding)
-├── erc-work/                # міст курс <-> реальна робота в ERC
-│   ├── context.md            # хто я в ERC, які продукти плануються
-│   └── tasks/                  # конкретні робочі задачі, де можна застосувати тему курсу
-├── capstone-studymate/     # наскрізний дипломний проєкт StudyMate
-├── tier1/
-│   ├── python-programming/
-│   ├── javascript-fundamentals/
-│   └── human-computer-interaction-design/
-├── tier2/
-│   ├── ai-fundamentals/               # поточна дисципліна з реальними ДЗ
-│   ├── generative-agentic-ai/        # ще не розпочато
-│   ├── mlops-cicd/
-│   ├── interaction-design-thinking-uxui/
-│   ├── ux-research-usability-testing/
-│   ├── ai-interfaces-design/
-│   ├── agile-product-management/
-│   ├── product-marketing/
-│   └── product-analytics/
-└── tier3/
-    ├── market-strategy-capstone/
-    ├── business-case-studies/
-    ├── data-privacy-ai-regulation/
-    ├── responsible-ai-leadership/
-    └── applied-cs-capstone/
-```
+Ключові файли: [PROGRAM.md](PROGRAM.md) (навчальний план) ·
+[CALENDAR.md](CALENDAR.md) (дати й статуси дисциплін) ·
+[STATE.md](STATE.md) (де я зараз) ·
+[DECISIONS_LOG.md](DECISIONS_LOG.md) (закріплені висновки) ·
+[prompts/](prompts/README.md) (багаторазові промпти) ·
+[erc-work/context.md](erc-work/context.md) (міст курс↔робота) ·
+[capstone-studymate/](capstone-studymate/README.md) (наскрізний диплом StudyMate).
+
+**Tier 1:**
+[Python Programming](tier1/python-programming/README.md) ·
+[JavaScript Fundamentals](tier1/javascript-fundamentals/README.md) ·
+[Human-Computer Interaction Design](tier1/human-computer-interaction-design/README.md)
+
+**Tier 2:**
+[AI Fundamentals](tier2/ai-fundamentals/README.md) (поточна) ·
+[Generative and Agentic AI](tier2/generative-agentic-ai/README.md) ·
+[MLOps CI/CD](tier2/mlops-cicd/README.md) ·
+[Interaction Design and Design Thinking for UX/UI](tier2/interaction-design-thinking-uxui/README.md) ·
+[UX Research Methods and Usability Testing](tier2/ux-research-usability-testing/README.md) ·
+[AI Interfaces Design](tier2/ai-interfaces-design/README.md) ·
+[Agile Product Management](tier2/agile-product-management/README.md) ·
+[Product Marketing](tier2/product-marketing/README.md) ·
+[Product Analytics](tier2/product-analytics/README.md)
+
+**Tier 3:**
+[Market Strategy Capstone](tier3/market-strategy-capstone/README.md) ·
+[Business Case Studies](tier3/business-case-studies/README.md) ·
+[Data Privacy and AI Regulation](tier3/data-privacy-ai-regulation/README.md) ·
+[Responsible AI Leadership](tier3/responsible-ai-leadership/README.md) ·
+[Applied Computer Science Capstone](tier3/applied-cs-capstone/README.md)
 
 ## Як цим користуватись
 

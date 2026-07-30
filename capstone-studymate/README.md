@@ -6,7 +6,7 @@ AI-освітній асистент з математики (основне) т
 
 Побудований на принципі **«відповідає тільки на основі бази знань»** — прямий
 паралель до реальних enterprise-кейсів в ERC (актуальний перелік і статуси —
-`../erc-work/context.md`, список зростає).
+[erc-work/context.md](../erc-work/context.md), список зростає).
 
 ## Архітектура (за станом на ДЗ10)
 
@@ -25,15 +25,16 @@ UI: три вкладки (Chat / Formulas / Plan), sidebar з параметр�
 
 ## Файли ДЗ
 
-Дивись `../tier2/ai-fundamentals/homework/` — там лежать реальні завантажені
-файли: ДЗ2 (продукт і архітектура), ДЗ6 (ризики), ДЗ7-ДЗ8 (embeddings,
-семантичний пошук, LangChain/LangGraph агент), ДЗ10
-(`hw10_streamlit_app/` — повний код Streamlit-застосунку: `app.py`,
-`requirements.txt`, продуктова рамка, база знань).
+Дивись [tier2/ai-fundamentals](../tier2/ai-fundamentals/README.md) — там лежать реальні завантажені
+файли: [hw02_studymate_product_arch.md](../tier2/ai-fundamentals/homework/hw02_studymate_product_arch.md) (продукт і архітектура),
+[hw06_risks.md](../tier2/ai-fundamentals/homework/hw06_risks.md) (ризики), ДЗ7-ДЗ8 (embeddings,
+семантичний пошук, LangChain/LangGraph агент), [hw10_streamlit_app/](../tier2/ai-fundamentals/homework/hw10_streamlit_app/README.md)
+(повний код Streamlit-застосунку: `app.py`, `requirements.txt`, продуктова
+рамка, база знань).
 
 ## Наскрізний зв'язок з роботою
 
 Кожен новий крок Capstone варто звіряти з реальними enterprise-кейсами ERC —
-дивись `../erc-work/context.md`. Важливо: у здаваних роботах для Neoversity
+дивись [erc-work/context.md](../erc-work/context.md). Важливо: у здаваних роботах для Neoversity
 внутрішні проєкти ERC не називати — єдиний публічний приклад у здаваних
-текстах це сам StudyMate (див. правило в `DECISIONS_LOG.md`).
+текстах це сам StudyMate (див. правило в [DECISIONS_LOG.md](../DECISIONS_LOG.md)).
