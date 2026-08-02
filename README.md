@@ -17,6 +17,11 @@
    збирає конкретні робочі AI-проєкти (product/project manager, internal ERP),
    список яких з часом росте, а не фіксований трьома пунктами — див.
    `erc-work/context.md` для актуального переліку і статусів.
+4. **Критичний фільтр зовнішнього контенту.** Окрема гілка `ai-trends/` —
+   розбір навчальних і новинних відео про AI з YouTube (за транскриптом):
+   резюме, факт-чек, звірка з актуальними трендами, і головне — чи
+   застосовно це до мого навчання і роботи в ERC, чи ні. Див.
+   [ai-trends/README.md](ai-trends/README.md).
 
 ## Структура
 
@@ -26,6 +31,7 @@
 [DECISIONS_LOG.md](DECISIONS_LOG.md) (закріплені висновки) ·
 [prompts/](prompts/README.md) (багаторазові промпти) ·
 [erc-work/context.md](erc-work/context.md) (міст курс↔робота) ·
+[ai-trends/](ai-trends/README.md) (розбір AI-відео з YouTube) ·
 [capstone-studymate/](capstone-studymate/README.md) (наскрізний диплом StudyMate).
 
 **Tier 1:**
@@ -96,7 +102,8 @@ date: 2026-07-30    # тільки якщо дата точно відома, н
 блок зверху файлу чи README папки.
 
 Файли в `erc-work/tasks/` (реальні робочі задачі, не ДЗ) використовують
-`tier: erc-work` і `type: task` замість дисципліни курсу.
+`tier: erc-work` і `type: task` замість дисципліни курсу. Аналогічно файли в
+`ai-trends/reviews/` використовують `tier: ai-trends` і `type: video-review`.
 
 ## Важливо
 
