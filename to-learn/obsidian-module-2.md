@@ -2,7 +2,9 @@
 tier: to-learn
 type: study-module
 status: planned
+track: obsidian
 module: 2
+queue: 2
 date: 2026-08-29
 ---
 
