@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "studymate-standalone",
+      "runtimeExecutable": "../StudyMate/.venv/Scripts/streamlit.exe",
+      "runtimeArgs": ["run", "../StudyMate/app.py", "--server.headless=true"],
+      "port": 8501
+    }
+  ]
+}

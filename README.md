@@ -32,7 +32,8 @@
 [prompts/](prompts/README.md) (багаторазові промпти) ·
 [erc-work/context.md](erc-work/context.md) (міст курс↔робота) ·
 [ai-trends/](ai-trends/README.md) (розбір AI-відео з YouTube) ·
-[capstone-studymate/](capstone-studymate/README.md) (наскрізний диплом StudyMate).
+[capstone-studymate/](capstone-studymate/README.md) (наскрізний диплом StudyMate) ·
+[to-learn/backlog.md](to-learn/backlog.md) (інструменти, які хочу освоїти).
 
 Інструкції для ІІ-агентів: [AGENTS.md](AGENTS.md), Claude Code читає його
 через міст [CLAUDE.md](CLAUDE.md).

@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .venv/
 .env
+gcp-service-account*.json
 .streamlit/secrets.toml
 .obsidian/
 Untitled*.canvas
