@@ -1,7 +1,7 @@
 ---
 tier: to-learn
 type: study-plan
-status: planned
+status: in-progress
 date: 2026-08-29
 ---
 
