@@ -4,14 +4,15 @@ type: study-module
 status: planned
 track: openrouter
 module: 3
-queue: 7
+queue: 3
+week: 14.09-20.09.2026
 date: 2026-08-29
 ---
 
 # OpenRouter, модуль 3: роутинг, надёжность, структурированный вывод
 
-Часть плана [openrouter-plan.md](openrouter-plan.md). Три занятия,
-примерно 3,5 часа за неделю. Требует пройденного
+Часть плана [openrouter-plan.md](openrouter-plan.md). Неделя
+14.09-20.09.2026. Три занятия, примерно 3,5 часа за неделю. Требует пройденного
 [модуля 2](openrouter-module-2.md).
 
 **Статус модуля: в плане**

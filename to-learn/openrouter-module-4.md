@@ -4,14 +4,15 @@ type: study-module
 status: planned
 track: openrouter
 module: 4
-queue: 8
+queue: 4
+week: 21.09-27.09.2026
 date: 2026-08-29
 ---
 
 # OpenRouter, модуль 4: решение для реальной задачи ERC
 
-Часть плана [openrouter-plan.md](openrouter-plan.md). Три занятия,
-примерно 3,5 часа за неделю. Финальный модуль, требует пройденного
+Часть плана [openrouter-plan.md](openrouter-plan.md). Неделя
+21.09-27.09.2026. Три занятия, примерно 3,5 часа за неделю. Финальный модуль, требует пройденного
 [модуля 3](openrouter-module-3.md).
 
 **Статус модуля: в плане**

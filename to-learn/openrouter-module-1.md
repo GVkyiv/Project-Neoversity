@@ -4,14 +4,15 @@ type: study-module
 status: in-progress
 track: openrouter
 module: 1
-queue: 5
+queue: 1
+week: 31.08-06.09.2026
 date: 2026-08-29
 ---
 
 # OpenRouter, модуль 1: что это, деньги и первое сравнение
 
-Часть плана [openrouter-plan.md](openrouter-plan.md). Три занятия по
-часу, примерно 3 часа за неделю.
+Часть плана [openrouter-plan.md](openrouter-plan.md). Неделя
+31.08-06.09.2026. Три занятия по часу, примерно 3 часа за неделю.
 
 **Статус модуля: в процессе**
 

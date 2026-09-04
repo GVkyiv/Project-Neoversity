@@ -5,6 +5,7 @@ status: planned
 track: obsidian
 module: 3
 queue: 3
+week: 14.09-20.09.2026
 date: 2026-08-29
 ---
 

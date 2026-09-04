@@ -4,14 +4,15 @@ type: study-module
 status: planned
 track: openrouter
 module: 2
-queue: 6
+queue: 2
+week: 07.09-13.09.2026
 date: 2026-08-29
 ---
 
 # OpenRouter, модуль 2: API и перенос кода курса
 
-Часть плана [openrouter-plan.md](openrouter-plan.md). Три занятия,
-примерно 3,5 часа за неделю. Требует пройденного
+Часть плана [openrouter-plan.md](openrouter-plan.md). Неделя
+07.09-13.09.2026. Три занятия, примерно 3,5 часа за неделю. Требует пройденного
 [модуля 1](openrouter-module-1.md).
 
 **Статус модуля: в плане**
