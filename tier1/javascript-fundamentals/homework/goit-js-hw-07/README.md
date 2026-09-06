@@ -1,4 +1,5 @@
 ---
+title: "ДЗ7 JS: робота з DOM"
 tier: 1
 discipline: javascript-fundamentals
 type: homework

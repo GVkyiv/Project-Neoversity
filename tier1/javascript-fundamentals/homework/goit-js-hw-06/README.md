@@ -1,4 +1,5 @@
 ---
+title: "ДЗ6 JS: ООП, класи, приватні поля"
 tier: 1
 discipline: javascript-fundamentals
 type: homework

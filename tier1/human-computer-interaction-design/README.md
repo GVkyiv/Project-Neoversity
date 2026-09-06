@@ -1,3 +1,7 @@
+---
+title: "HCI Design: theory and techniques"
+---
+
 # Human-Computer Interaction and Design: theory and techniques
 
 Tier 1. Статус: **пройдено**.

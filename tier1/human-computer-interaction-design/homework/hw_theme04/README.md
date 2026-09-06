@@ -1,4 +1,5 @@
 ---
+title: "ДЗ4 HCI: конкурентний аналіз (SWOT)"
 tier: 1
 discipline: human-computer-interaction-design
 type: homework

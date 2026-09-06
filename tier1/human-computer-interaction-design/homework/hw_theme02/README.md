@@ -1,4 +1,5 @@
 ---
+title: "ДЗ2 HCI: продуктові гіпотези Pivot"
 tier: 1
 discipline: human-computer-interaction-design
 type: homework

@@ -1,4 +1,5 @@
 ---
+title: "ДЗ8 Python: функціональне програмування"
 tier: 1
 discipline: python-programming
 type: homework

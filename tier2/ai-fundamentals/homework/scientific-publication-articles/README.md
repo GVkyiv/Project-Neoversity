@@ -1,4 +1,5 @@
 ---
+title: "Довідкові статті для наукової публікації"
 tier: 2
 discipline: ai-fundamentals
 type: reference-material

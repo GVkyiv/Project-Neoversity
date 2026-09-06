@@ -1,4 +1,5 @@
 ---
+title: "ДЗ4 JS: масиви обʼєктів"
 tier: 1
 discipline: javascript-fundamentals
 type: homework

@@ -1,3 +1,7 @@
+---
+title: "Applied Computer Science: Capstone project"
+---
+
 # Applied Computer Science: Capstone project
 
 Tier 3. Фінальний дипломний проєкт програми — 259 год за таблицею, включно з

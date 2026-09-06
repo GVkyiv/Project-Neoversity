@@ -1,3 +1,7 @@
+---
+title: "Capstone: StudyMate"
+---
+
 # Capstone: StudyMate
 
 AI-освітній асистент з математики (основне) та фізики (другорядне) для

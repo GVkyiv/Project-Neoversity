@@ -1,4 +1,5 @@
 ---
+title: "Фінальний проєкт HCI: Personal Finance Hub"
 tier: 1
 discipline: human-computer-interaction-design
 type: final-project

@@ -1,3 +1,7 @@
+---
+title: "Data Privacy and AI Regulation"
+---
+
 # Data Privacy and AI Regulation
 
 Tier 3. **Деталізованого блоку модулів у вихідній таблиці Neoversity не

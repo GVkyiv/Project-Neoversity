@@ -1,4 +1,5 @@
 ---
+title: "ДЗ5 Python: регулярні вирази"
 tier: 1
 discipline: python-programming
 type: homework

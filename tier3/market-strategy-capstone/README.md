@@ -1,3 +1,7 @@
+---
+title: "Market Strategy Capstone"
+---
+
 # Market Strategy Capstone: Competitive Analysis & Opportunity Framing
 
 Tier 3. **Деталізованого блоку модулів у вихідній таблиці Neoversity не

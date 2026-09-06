@@ -1,4 +1,5 @@
 ---
+title: "ДЗ10 HCI: евристична оцінка і тестування"
 tier: 1
 discipline: human-computer-interaction-design
 type: homework

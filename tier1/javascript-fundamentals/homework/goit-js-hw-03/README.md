@@ -1,4 +1,5 @@
 ---
+title: "ДЗ3 JS: рядки і масиви"
 tier: 1
 discipline: javascript-fundamentals
 type: homework

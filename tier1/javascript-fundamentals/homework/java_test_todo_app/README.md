@@ -1,4 +1,5 @@
 ---
+title: "To-do застосунок: класи, успадкування"
 tier: 1
 discipline: javascript-fundamentals
 type: homework

@@ -1,4 +1,5 @@
 ---
+title: "ДЗ7 HCI: FigJam дошка, assignment 4"
 tier: 1
 discipline: human-computer-interaction-design
 type: homework

@@ -1,3 +1,7 @@
+---
+title: "MLOps CI/CD"
+---
+
 # MLOps CI/CD
 
 Tier 2. Фінальний результат: повний MLOps-конвеєр — Docker, K8s (EKS),

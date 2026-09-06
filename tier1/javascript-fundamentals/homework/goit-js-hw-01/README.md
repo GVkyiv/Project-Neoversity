@@ -1,4 +1,5 @@
 ---
+title: "ДЗ1 JS: функції, шаблонні рядки"
 tier: 1
 discipline: javascript-fundamentals
 type: homework

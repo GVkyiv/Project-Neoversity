@@ -1,3 +1,7 @@
+---
+title: "JavaScript Fundamentals: Basics to Advanced"
+---
+
 # JavaScript Fundamentals: From Basics to Advanced Concepts
 
 Tier 1. Статус: **пройдено**.

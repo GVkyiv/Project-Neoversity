@@ -1,3 +1,7 @@
+---
+title: "Neoversity MSc: навчання + ERC"
+---
+
 # Neoversity MSc: навчання + ERC
 
 Репозиторій для дворічної магістратури **Master of Science in Computer Science

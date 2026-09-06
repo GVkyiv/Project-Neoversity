@@ -1,4 +1,8 @@
 ---
+title: "Груповий проєкт: Personal Assistant CLI"
+---
+
+---
 tier: 1
 discipline: python-programming
 type: final-project

@@ -1,4 +1,5 @@
 ---
+title: "Рецензія: соціальна VR (van Brakel та ін.)"
 tier: 1
 discipline: human-computer-interaction-design
 type: scientific-review

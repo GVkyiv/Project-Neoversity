@@ -1,4 +1,5 @@
 ---
+title: "ДЗ5 HCI: макет, assignment 3"
 tier: 1
 discipline: human-computer-interaction-design
 type: homework

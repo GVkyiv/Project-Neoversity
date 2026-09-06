@@ -1,3 +1,7 @@
+---
+title: "Python Programming: Foundations and Best Practices"
+---
+
 # Python Programming: Foundations and Best Practices
 
 Tier 1. Статус: **пройдено**.

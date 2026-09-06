@@ -1,4 +1,5 @@
 ---
+title: "ДЗ3 Python: типи даних, конструкції"
 tier: 1
 discipline: python-programming
 type: homework

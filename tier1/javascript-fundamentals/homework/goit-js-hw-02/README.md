@@ -1,4 +1,5 @@
 ---
+title: "ДЗ2 JS: умовні конструкції, валідація"
 tier: 1
 discipline: javascript-fundamentals
 type: homework

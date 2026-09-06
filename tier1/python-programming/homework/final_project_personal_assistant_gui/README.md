@@ -1,4 +1,5 @@
 ﻿---
+title: "Фінальний проєкт: Personal Assistant GUI"
 tier: 1
 discipline: python-programming
 type: final-project

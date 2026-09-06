@@ -1,4 +1,5 @@
 ---
+title: "ДЗ7 Python: вбудовані модулі"
 tier: 1
 discipline: python-programming
 type: homework

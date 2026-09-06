@@ -8,3 +8,7 @@ gcp-service-account*.json
 .obsidian/
 Untitled*.canvas
 .claude/settings.local.json
+
+# Obsidian: личные черновики, в репозиторий не идут
+journal/
+inbox/

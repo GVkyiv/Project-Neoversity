@@ -1,4 +1,5 @@
 ---
+title: "Рецензія на наукову статтю 1"
 tier: 1
 discipline: human-computer-interaction-design
 type: scientific-review

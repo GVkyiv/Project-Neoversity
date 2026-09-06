@@ -1,4 +1,5 @@
 ---
+title: "ДЗ10: Streamlit застосунок StudyMate"
 tier: 2
 discipline: ai-fundamentals
 topic: 10

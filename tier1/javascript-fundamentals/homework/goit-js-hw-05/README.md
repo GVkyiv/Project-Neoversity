@@ -1,4 +1,5 @@
 ---
+title: "ДЗ5 JS: map, filter, reduce"
 tier: 1
 discipline: javascript-fundamentals
 type: homework

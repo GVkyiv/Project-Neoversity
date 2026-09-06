@@ -1,4 +1,5 @@
 ---
+title: "ДЗ4: LLM аналіз і генерація текстів"
 tier: 2
 discipline: generative-agentic-ai
 topic: 4

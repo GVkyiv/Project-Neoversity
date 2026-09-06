@@ -1,4 +1,5 @@
 ---
+title: "ДЗ8 JS: галерея з модальним вікном"
 tier: 1
 discipline: javascript-fundamentals
 type: homework

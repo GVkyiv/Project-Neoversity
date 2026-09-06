@@ -1,4 +1,5 @@
 ---
+title: "Рецензія: Trust by Interface (Sun et al.)"
 tier: 2
 discipline: ai-fundamentals
 type: scientific-review

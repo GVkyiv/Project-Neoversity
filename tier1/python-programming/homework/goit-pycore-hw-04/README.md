@@ -1,4 +1,5 @@
 ---
+title: "ДЗ4 Python: datetime, time, random"
 tier: 1
 discipline: python-programming
 type: homework
