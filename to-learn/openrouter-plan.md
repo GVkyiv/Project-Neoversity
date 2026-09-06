@@ -64,11 +64,17 @@ frontmatter файла модуля (`planned`, `in-progress`, `done`), плюс
 
 ### Ссылки для открытия в Obsidian
 
-- Модуль 1: `obsidian://open?vault=Project%20Neoversity&file=to-learn%2Fopenrouter-module-1`
-- Модуль 2: `obsidian://open?vault=Project%20Neoversity&file=to-learn%2Fopenrouter-module-2`
-- Модуль 3: `obsidian://open?vault=Project%20Neoversity&file=to-learn%2Fopenrouter-module-3`
-- Модуль 4: `obsidian://open?vault=Project%20Neoversity&file=to-learn%2Fopenrouter-module-4`
-- Этот план: `obsidian://open?vault=Project%20Neoversity&file=to-learn%2Fopenrouter-plan`
+Vault сменился 06.09.2026: был `Project Neoversity` (корень —
+`Study/Project Neoversity`), стал `AI Project` (корень — сам
+`AI Project`, все тринадцать проектов внутри). Пути файлов сместились
+на `Study/Project Neoversity/`, ссылки ниже это учитывают. Подробности:
+[obsidian-plan.md](obsidian-plan.md), раздел «Сделано 06.09.2026».
+
+- Модуль 1: `obsidian://open?vault=AI%20Project&file=Study%2FProject%20Neoversity%2Fto-learn%2Fopenrouter-module-1`
+- Модуль 2: `obsidian://open?vault=AI%20Project&file=Study%2FProject%20Neoversity%2Fto-learn%2Fopenrouter-module-2`
+- Модуль 3: `obsidian://open?vault=AI%20Project&file=Study%2FProject%20Neoversity%2Fto-learn%2Fopenrouter-module-3`
+- Модуль 4: `obsidian://open?vault=AI%20Project&file=Study%2FProject%20Neoversity%2Fto-learn%2Fopenrouter-module-4`
+- Этот план: `obsidian://open?vault=AI%20Project&file=Study%2FProject%20Neoversity%2Fto-learn%2Fopenrouter-plan`
 
 Дублирующие ссылки на GitHub:
 [Модуль 1](https://github.com/GVkyiv/Project-Neoversity/blob/master/to-learn/openrouter-module-1.md) ·

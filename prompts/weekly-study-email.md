@@ -83,10 +83,13 @@ date: 2026-09-04
 | Каждое название занятия («Занятие 1. Настройка vault...») | тот же файл, с переходом к заголовку этого занятия |
 | Название курса Anthropic Academy | страница курса, адрес из таблицы `backlog.md` как есть |
 
-**Как собрать ссылку на файл модуля:**
+**Как собрать ссылку на файл модуля.** Vault сменился 06.09.2026: был
+`Project Neoversity` (корень — этот репозиторий), стал `AI Project`
+(корень поднят на два уровня выше, репозиторий теперь лежит внутри как
+`Study/Project Neoversity`):
 
 ```
-obsidian://open?vault=Project%20Neoversity&file=to-learn%2F<имя-файла-без-расширения>
+obsidian://open?vault=AI%20Project&file=Study%2FProject%20Neoversity%2Fto-learn%2F<имя-файла-без-расширения>
 ```
 
 Готовые ссылки этого вида уже лежат в `obsidian-plan.md` и
@@ -103,7 +106,7 @@ anchor = urllib.parse.quote("Занятие 1. Настройка vault под �
 ```
 
 Результат приклеивается к ссылке на файл:
-`obsidian://open?vault=Project%20Neoversity&file=to-learn%2Fobsidian-module-1%23<anchor>`
+`obsidian://open?vault=AI%20Project&file=Study%2FProject%20Neoversity%2Fto-learn%2Fobsidian-module-1%23<anchor>`
 
 Если по какой-то причине заголовок закодировать не удалось, ставить
 обычную ссылку на файл модуля без якоря. Битую ссылку не отправлять
