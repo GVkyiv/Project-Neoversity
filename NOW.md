@@ -1,7 +1,7 @@
 ---
 area: study
 project: Project Neoversity
-updated: 2026-09-06
+updated: 2026-09-11
 ---
 
 # NOW — Project Neoversity
@@ -15,11 +15,11 @@ updated: 2026-09-06
 
 - Стан: active
 - Дедлайн: за CALENDAR.md
-- Оновлено: 2026-09-06
+- Оновлено: 2026-09-11
 
-Зараз: Tier 2, курс «Генеративний та агентний ШІ», тема 4 закрита
-([ДЗ4](tier2/generative-agentic-ai/homework/hw04/README.md)).
-Наступний крок: тема 5 курсу.
+Зараз: Tier 2, «Генеративний та агентний ШІ», розібрано лекції про рівні
+автономності агентів і LangGraph ([DECISIONS_LOG](DECISIONS_LOG.md), п.8-10).
+Наступний крок: гриллінг IT support-бота на базі цих рішень.
 Чекаю: нічого, крок за мною.
 
 ## Obsidian / Dashboard

@@ -61,7 +61,7 @@ frontmatter файла модуля, здесь статусы не дублир
 
 | # | Курс | Неделя | Статус | Ссылка |
 |---|---|---|---|---|
-| 1 | Introduction to Model Context Protocol | 31.08-06.09 | не начато | [курс](https://anthropic.skilljar.com/introduction-to-model-context-protocol) |
+| 1 | Introduction to Model Context Protocol | 31.08-06.09 | в процессе (06.09, окружение поднято на OpenRouter/Claude Haiku 4.5 вместо прямого Anthropic API) | [курс](https://anthropic.skilljar.com/introduction-to-model-context-protocol) |
 | 2 | Introduction to subagents | 07.09-13.09 | не начато | [курс](https://anthropic.skilljar.com/introduction-to-subagents) |
 | 3 | Claude Code in Action | 14.09-20.09 | не начато | [курс](https://anthropic.skilljar.com/claude-code-in-action) |
 | 4 | Introduction to agent skills | 21.09-27.09 | не начато | [курс](https://anthropic.skilljar.com/introduction-to-agent-skills) |
