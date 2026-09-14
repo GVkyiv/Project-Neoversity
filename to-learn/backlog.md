@@ -27,7 +27,7 @@ frontmatter файла модуля, здесь статусы не дублир
 
 ### Трек 1. OpenRouter.ai
 
-- Статус: в процессе (модуль 1, занятие 1 закрыто 04.09.2026)
+- Статус: в процессе (модуль 1 завершён 11.09.2026, все три занятия)
 - Что это: единый API-шлюз и маркетплейс, один ключ и один формат запроса
   к 500+ моделям от 80+ провайдеров
 - Зачем: обоснованный выбор модели под задачу с цифрами по цене и
@@ -61,7 +61,7 @@ frontmatter файла модуля, здесь статусы не дублир
 
 | # | Курс | Неделя | Статус | Ссылка |
 |---|---|---|---|---|
-| 1 | Introduction to Model Context Protocol | 31.08-06.09 | в процессе (06.09, окружение поднято на OpenRouter/Claude Haiku 4.5 вместо прямого Anthropic API) | [курс](https://anthropic.skilljar.com/introduction-to-model-context-protocol) |
+| 1 | Introduction to Model Context Protocol | 31.08-06.09 | в процессе (11.09, пройдено ориентировочно 1-2 модуля курса, точное число уточнить) | [курс](https://anthropic.skilljar.com/introduction-to-model-context-protocol) |
 | 2 | Introduction to subagents | 07.09-13.09 | не начато | [курс](https://anthropic.skilljar.com/introduction-to-subagents) |
 | 3 | Claude Code in Action | 14.09-20.09 | не начато | [курс](https://anthropic.skilljar.com/claude-code-in-action) |
 | 4 | Introduction to agent skills | 21.09-27.09 | не начато | [курс](https://anthropic.skilljar.com/introduction-to-agent-skills) |
