@@ -119,6 +119,9 @@ Claude API» неочевидный (`claude-with-the-anthropic-api`), не со
 - [ ] Пополнять список по мере появления новых тем
 - [x] Регулярная рассылка настроена 25.08.2026, переработана 04.09.2026:
       недельное письмо только по активным трекам, полный список раз в
-      месяц. Промпт рассылки лежит в
-      [prompts/weekly-study-email.md](../prompts/weekly-study-email.md)
+      месяц. Разбита на отдельные файлы 14.09.2026, каждое письмо своя
+      сущность: [prompts/email-common.md](../prompts/email-common.md),
+      [email-weekly.md](../prompts/email-weekly.md),
+      [email-friday-reminder.md](../prompts/email-friday-reminder.md),
+      [email-monthly-overview.md](../prompts/email-monthly-overview.md)
 - [ ] 03.11.2026: вернуться к Hermes Agent, переоценить статус
