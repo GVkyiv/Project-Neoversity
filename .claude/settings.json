@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./gcp-service-account*.json)",
+      "Read(./.env)",
+      "Read(./**/.env)",
+      "Read(./.streamlit/secrets.toml)",
+      "Read(./**/.streamlit/secrets.toml)"
+    ]
+  }
+}
