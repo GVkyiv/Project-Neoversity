@@ -99,7 +99,7 @@ Claude API» неочевидный (`claude-with-the-anthropic-api`), не со
   профили-«цифровые сотрудники», cron-задачи. Разобрано с факт-чеком в
   [ai-trends/reviews/2026-08-09_hermes-desktop.md](../ai-trends/reviews/2026-08-09_hermes-desktop.md)
 - Зачем: пилотная автоматизация процессов ERC вне кодинга (см.
-  [erc-work/context.md](../erc-work/context.md), пункты 1 и 2 в разборе)
+  `erc-work/context.md`, пункты 1 и 2 в разборе)
 - Отложено 29.08.2026: авторизация требует подписку ChatGPT, не Claude.
   Вернуться 03.11.2026, когда снова будет актуальна подписка ChatGPT
 - План действий (из вывода разбора, раздел «Дія»):

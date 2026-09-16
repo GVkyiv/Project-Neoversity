@@ -32,7 +32,7 @@ Science (Specialization in AI Product Management)**, диплом Woolf Universi
 школярів і студентів молодших курсів. Хімія свідомо виключена — немає достатньої
 бази знань з економічної освіти, щоб контролювати якість. Побудований на
 принципі «відповідає тільки на основі бази знань» — прямий паралель до
-реальних enterprise-кейсів в ERC (див. [erc-work/context.md](erc-work/context.md), список зростає).
+реальних enterprise-кейсів в ERC (див. `erc-work/context.md`, список зростає).
 Деталі архітектури — [capstone-studymate/README.md](capstone-studymate/README.md).
 
 ## Що вже зроблено (Tier 2, AI Fundamentals)
@@ -134,7 +134,7 @@ Science (Specialization in AI Product Management)**, диплом Woolf Universi
 - Перехід від Streamlit/Gradio-прототипування до окремого API-шару + фронтенду —
   для enterprise-масштабу (1000+ користувачів в ERC).
 - Список реальних AI-проєктів в ERC зростає, не обмежений трьома початковими
-  (див. [erc-work/context.md](erc-work/context.md) для актуального переліку і статусів): додались
+  (див. `erc-work/context.md` для актуального переліку і статусів): додались
   нормалізація кодування/алфавіту в описах товарів, масове розпізнавання PDF,
   і вже реалізований проєкт розпізнавання нарад (нюанси буде додано окремо).
 - ДЗ з Human-Computer Interaction Design довантажено 30.07.2026 (Personal
@@ -146,13 +146,13 @@ Science (Specialization in AI Product Management)**, диплом Woolf Universi
   груповий фінальний проєкт CLI-помічник, індивідуальний фінальний
   GUI-застосунок Personal Assistant). **Tier 1 повністю наповнено реальними
   ДЗ.** Ще очікується: нюанси проєкту розпізнавання нарад (для
-  [erc-work/context.md](erc-work/context.md)).
+  `erc-work/context.md`).
 
 ## Головна мета репозиторію (уточнено 30.07.2026)
 
 Не просто фіксувати пройдений матеріал. Дві рівнозначні цілі: (1) допомагати
 освоювати курс, (2) для кожної теми свідомо шукати застосування в реальному
-житті і на роботі в ERC. Детально — [erc-work/context.md](erc-work/context.md).
+житті і на роботі в ERC. Детально — `erc-work/context.md`.
 
 ## Прогалини в даних (чесно)
 

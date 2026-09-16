@@ -25,8 +25,9 @@
 
 ## Скіл humanizer
 
-Встановлено для Claude Code (`.claude/skills/humanizer/`) і Codex
-(`.agents/skills/humanizer/`), джерело github.com/blader/humanizer, MIT,
+Встановлено для Claude Code (`.claude/skills/humanizer/`), а також
+Codex і Antigravity (`.agents/skills/humanizer/`), джерело
+github.com/blader/humanizer, MIT,
 версія 2.9.1, канонічна копія в `AI Auditor/skills/humanizer/`.
 
 **Застосовувати:** перед тим як віддати фінальний текст, який пише сам
@@ -43,8 +44,8 @@ LLM, форма там не важлива), до коду, до даних і �
 
 ## Скіл fact-checker і сабагент fact-checker
 
-Скіл встановлено для Claude Code (`.claude/skills/fact-checker/`) і Codex
-(`.agents/skills/fact-checker/`), джерело
+Скіл встановлено для Claude Code (`.claude/skills/fact-checker/`), а
+також Codex і Antigravity (`.agents/skills/fact-checker/`), джерело
 github.com/davila7/claude-code-templates, MIT, перенесена тільки
 методологія без псевдокоду, канонічна копія в
 `AI Auditor/skills/fact-checker/`. Сабагент тільки для Claude Code
@@ -72,10 +73,10 @@ github.com/davila7/claude-code-templates, MIT, перенесена тільки
 
 ## Скіл grilling
 
-Встановлено **тільки для Claude Code** (`.claude/skills/grilling/`),
-джерело github.com/mattpocock/skills, MIT, комміт `1495d01`, канонічна
-копія в `AI Auditor/skills/grilling/`, перенесено без правок 11.08.2026.
-Для Codex (`.agents/skills/`) поки не ставили, це окремий захід. Обгортку
+Встановлено в `.claude/skills/grilling/` і `.agents/skills/grilling/`
+(другий каталог — Codex і Antigravity, дзеркало від 15.09.2026), джерело
+github.com/mattpocock/skills, MIT, комміт `1495d01`, канонічна копія в
+`AI Auditor/skills/grilling/`, перенесено без правок 11.08.2026. Обгортку
 `grill-me` свідомо не брали: її тіло це один рядок "проведи сесію
 /grilling", тобто скіл, що повторює скіл.
 

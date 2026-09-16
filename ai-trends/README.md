@@ -8,7 +8,7 @@ title: "AI Trends: розбір відео про AI"
 Мета: коли я дивлюсь навчальне чи новинне відео про AI на YouTube, не
 приймати поради з нього на віру, а прогнати через критичний розбір і
 зрозуміти, чи застосовно це особисто до мене — до навчання в Neoversity і до
-реальних AI-проєктів в ERC ([erc-work/context.md](../erc-work/context.md)).
+реальних AI-проєктів в ERC (`erc-work/context.md`).
 
 ## Як це працює
 
@@ -36,5 +36,5 @@ title: "AI Trends: розбір відео про AI"
 
 ## Пов'язано
 
-[← до README репозиторію](../README.md) · [erc-work/context.md](../erc-work/context.md) ·
+[← до README репозиторію](../README.md) · `erc-work/context.md` ·
 [prompts/ai-video-review.md](../prompts/ai-video-review.md)

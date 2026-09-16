@@ -27,6 +27,15 @@ title: "Neoversity MSc: навчання + ERC"
    застосовно це до мого навчання і роботи в ERC, чи ні. Див.
    [ai-trends/README.md](ai-trends/README.md).
 
+## Що не публікується
+
+Репозиторій публічний: навчальні роботи, розбори і капстоун відкриті
+навмисно. Гілка `erc-work/` ведеться тільки на диску і в git не
+потрапляє — там робочі матеріали по внутрішніх системах роботодавця.
+Причина записана в `.gitignore`. Посилання на файли цієї гілки в тексті
+залишені як звичайні шляхи, а не як лінки: у клонованому репозиторії
+їх не буде.
+
 ## Структура
 
 Ключові файли: [PROGRAM.md](PROGRAM.md) (навчальний план) ·
@@ -34,7 +43,7 @@ title: "Neoversity MSc: навчання + ERC"
 [STATE.md](STATE.md) (де я зараз) ·
 [DECISIONS_LOG.md](DECISIONS_LOG.md) (закріплені висновки) ·
 [prompts/](prompts/README.md) (багаторазові промпти) ·
-[erc-work/context.md](erc-work/context.md) (міст курс↔робота) ·
+`erc-work/context.md` (міст курс↔робота) ·
 [ai-trends/](ai-trends/README.md) (розбір AI-відео з YouTube) ·
 [capstone-studymate/](capstone-studymate/README.md) (наскрізний диплом StudyMate) ·
 [to-learn/backlog.md](to-learn/backlog.md) (інструменти, які хочу освоїти).
