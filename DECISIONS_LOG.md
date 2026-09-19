@@ -259,7 +259,7 @@ API актуальний (`Command`, `interrupt`, `RetryPolicy`, `retry_policy=`
 назву зі списку.
 
 **Маршрут і вибір документа лишати коду.** Прямий наслідок вимірів
-[ДЗ9](tier2/generative-agentic-ai/homework/hw09/README.md): гібридна і
+[ДЗ9](tier2/generative-agentic-ai/homework/hw09/hw09_langgraph-support-agent.md): гібридна і
 повністю LLM-архітектура дали однакову точність, але друга коштувала
 0.021 проти 0.015 USD і йшла 147 проти 106 секунд. Гірше інше: на
 повністю LLM-варіанті модель обрала не той пункт FAQ і вигадала розділ

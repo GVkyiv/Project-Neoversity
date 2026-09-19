@@ -14,20 +14,20 @@ Tier 1. Статус: **пройдено**.
 
 ## Зроблено (у `homework/`)
 
-- [goit-pycore-hw-03](homework/goit-pycore-hw-03/README.md) — 4 завдання (типи даних, керуючі конструкції)
-- [goit-pycore-hw-04](homework/goit-pycore-hw-04/README.md) — 4 завдання, кожне в своїй папці Task1-4 (`datetime`,
+- [goit-pycore-hw-03](homework/goit-pycore-hw-03/goit-pycore-hw-03_data-types-constructs.md) — 4 завдання (типи даних, керуючі конструкції)
+- [goit-pycore-hw-04](homework/goit-pycore-hw-04/goit-pycore-hw-04_datetime-time-random.md) — 4 завдання, кожне в своїй папці Task1-4 (`datetime`,
   `time`, робота з випадковими величинами)
-- [goit-pycore-hw-05](homework/goit-pycore-hw-05/README.md) — 4 завдання (регулярні вирази і розширена робота з
+- [goit-pycore-hw-05](homework/goit-pycore-hw-05/goit-pycore-hw-05_regex.md) — 4 завдання (регулярні вирази і розширена робота з
   рядками)
-- [goit-pycore-hw-06](homework/goit-pycore-hw-06/README.md) — робота з файлами й обробка виключень
-- [goit-pycore-hw-07](homework/goit-pycore-hw-07/README.md) — вбудовані модулі Python
-- [goit-pycore-hw-08](homework/goit-pycore-hw-08/README.md) — елементи функціонального програмування
-- [group10_personal_assistant/](homework/group10_personal_assistant/README.md) — **груповий фінальний проєкт** («Personal
+- [goit-pycore-hw-06](homework/goit-pycore-hw-06/goit-pycore-hw-06_files-exceptions.md) — робота з файлами й обробка виключень
+- [goit-pycore-hw-07](homework/goit-pycore-hw-07/goit-pycore-hw-07_builtin-modules.md) — вбудовані модулі Python
+- [goit-pycore-hw-08](homework/goit-pycore-hw-08/goit-pycore-hw-08_functional-programming.md) — елементи функціонального програмування
+- [group10_personal_assistant/](homework/group10_personal_assistant/group10_personal_assistant_cli.md) — **груповий фінальний проєкт** («Personal
   Assistant CLI by Purple Unicorns»), консольний бот-помічник: контакти
   (телефони, email, дні народження, пошук), нотатки, збереження через
   замінні DB-провайдери (pickle/SQLite), ORM-шар. Демо:
   https://asciinema.org/a/832566
-- [final_project_personal_assistant_gui/](homework/final_project_personal_assistant_gui/README.md) — **індивідуальний фінальний
+- [final_project_personal_assistant_gui/](homework/final_project_personal_assistant_gui/final_project_personal_assistant_gui.md) — **індивідуальний фінальний
   проєкт**, десктопний застосунок (CustomTkinter) + CLI: контакти
   (розширені поля: нікнейм, країна, код країни, адреса, коментар,
   улюблене), нотатки (теги, закріплення/обране), глобальний пошук,

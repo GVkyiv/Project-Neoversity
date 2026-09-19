@@ -56,7 +56,7 @@ Science (Specialization in AI Product Management)**, диплом Woolf Universi
 - **Наукова публікація** — завершено 30.07.2026: повний переклад і рецензія
   на статтю «Trust by Interface» (Sun et al., CHI EA '24) про вплив
   інтерфейсу на довіру до інформації від LLM. Файл:
-  [tier2/ai-fundamentals/homework/scientific-review/](tier2/ai-fundamentals/homework/scientific-review/README.md). Ключовий інсайт:
+  [tier2/ai-fundamentals/homework/scientific-review/](tier2/ai-fundamentals/homework/scientific-review/scientific-review_trust-by-interface.md). Ключовий інсайт:
   звичка користувача переважає над об'єктивною якістю інтерфейсу; для
   StudyMate голосовий інтерфейс не потрібен (формули на слух не працюють).
 - **Task_001 Variant 3** — LangChain tools + LangGraph агент у Colab, 4
@@ -101,7 +101,7 @@ Science (Specialization in AI Product Management)**, диплом Woolf Universi
   температури. Другий висновок: спірні кейси датасету краще закривати
   узагальненим правилом у промпті, а не дописувати їх у few-shot, інакше це
   підгонка під тест. Файл:
-  [tier2/generative-agentic-ai/homework/hw04/](tier2/generative-agentic-ai/homework/hw04/README.md).
+  [tier2/generative-agentic-ai/homework/hw04/](tier2/generative-agentic-ai/homework/hw04/hw04_llm-analysis-generation.md).
 - **ДЗ9 (тема 11)**: агент технічної підтримки на LangGraph v1, чотири
   послідовних вузли (класифікація, пошук у FAQ, генерація відповіді,
   перевірка ескалації), чекпоінтер `MemorySaver`. Замість одного агента
@@ -124,7 +124,7 @@ Science (Specialization in AI Product Management)**, диплом Woolf Universi
   від 95 до 1105 секунд. Суддею релевантності свідомо взято модель поза
   порівнянням (`claude-haiku-4.5`), інакше кожна модель оцінювала б власні
   відповіді. Файл:
-  [tier2/generative-agentic-ai/homework/hw09/](tier2/generative-agentic-ai/homework/hw09/README.md).
+  [tier2/generative-agentic-ai/homework/hw09/](tier2/generative-agentic-ai/homework/hw09/hw09_langgraph-support-agent.md).
 
 ## Що далі
 

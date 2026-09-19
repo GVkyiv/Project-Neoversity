@@ -19,9 +19,9 @@ title: "Багаторазові промпти для курсів"
   прикладаю текст/файл/посилання статті, застосовувати цей промпт як стандарт
   без перепитування формату**, якщо я явно не скажу інакше. Приклад
   завершеного результату за цим промптом:
-  [tier2/ai-fundamentals/homework/scientific-review/](../tier2/ai-fundamentals/homework/scientific-review/README.md) (30.07.2026), а також
-  [tier1/human-computer-interaction-design/homework/scientific_review_1/](../tier1/human-computer-interaction-design/homework/scientific_review_1/README.md) і
-  [scientific_review_2/](../tier1/human-computer-interaction-design/homework/scientific_review_2/README.md).
+  [tier2/ai-fundamentals/homework/scientific-review/](../tier2/ai-fundamentals/homework/scientific-review/scientific-review_trust-by-interface.md) (30.07.2026), а також
+  [tier1/human-computer-interaction-design/homework/scientific_review_1/](../tier1/human-computer-interaction-design/homework/scientific_review_1/scientific_review_1.md) і
+  [scientific_review_2/](../tier1/human-computer-interaction-design/homework/scientific_review_2/scientific_review_2_social-vr.md).
 - **[python-tutor.md](python-tutor.md)** — режим викладача Python для новачка, покроково за
   програмою курсу [«Робота з Python»](../tier1/python-programming/PYTHON.md) (Tier 1, вже пройдено). Може знадобитись
   як шаблон для наступних технічних курсів, де я теж починаю з нуля.

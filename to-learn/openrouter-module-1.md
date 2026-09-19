@@ -137,7 +137,7 @@ date: 2026-08-29
 результат.
 
 Старый план на эталоне ДЗ4 (см. [STATE.md](../STATE.md) и
-[tier2/generative-agentic-ai/homework/hw04/](../tier2/generative-agentic-ai/homework/hw04/README.md))
+[tier2/generative-agentic-ai/homework/hw04/](../tier2/generative-agentic-ai/homework/hw04/hw04_llm-analysis-generation.md))
 остаётся описанным для памяти, но по факту не используется: три задачи
 на строгий JSON-выход, модель `gpt-4.1-nano`, 45 контрольных вызовов,
 45 валидных JSON, 45 совпадений с эталоном, полный прогон примерно
