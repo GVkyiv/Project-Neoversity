@@ -23,7 +23,7 @@ title: "Багаторазові промпти для курсів"
   [tier1/human-computer-interaction-design/homework/scientific_review_1/](../tier1/human-computer-interaction-design/homework/scientific_review_1/README.md) і
   [scientific_review_2/](../tier1/human-computer-interaction-design/homework/scientific_review_2/README.md).
 - **[python-tutor.md](python-tutor.md)** — режим викладача Python для новачка, покроково за
-  програмою курсу [«Робота з Python»](../tier1/python-programming/README.md) (Tier 1, вже пройдено). Може знадобитись
+  програмою курсу [«Робота з Python»](../tier1/python-programming/PYTHON.md) (Tier 1, вже пройдено). Може знадобитись
   як шаблон для наступних технічних курсів, де я теж починаю з нуля.
 - **[vibe-coding-refiner.md](vibe-coding-refiner.md)** — Vibe Prompt Refiner: перетворення сирого
   запиту в структурований JSON-промпт (задача, вимоги, ризики, план ітерацій).

@@ -48,7 +48,7 @@ workflow у LangGraph, Streamlit/Gradio, фреймворк Agno, оцінюва
 Ключові висновки з цих ДЗ зафіксовані в кореневому [DECISIONS_LOG.md](../../DECISIONS_LOG.md) — не
 переспорювати заново.
 
-Пряма паралель з наскрізним дипломним проєктом: [capstone-studymate](../../capstone-studymate/README.md).
+Пряма паралель з наскрізним дипломним проєктом: [capstone-studymate](../../capstone-studymate/CAPSTONE_STUDYMATE.md).
 
 ## Не вистачає
 

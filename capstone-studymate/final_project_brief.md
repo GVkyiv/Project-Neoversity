@@ -108,7 +108,7 @@ status: in-progress
 
 - Архітектура (слайд 3) і рішення (слайд 4): три шари StudyMate (chat
   tool-calling, reasoning-агент, команда Researcher+Analyst) — див.
-  [README.md](README.md) цього репозиторію і `../StudyMate/README.md`
+  [README.md](CAPSTONE_STUDYMATE.md) цього репозиторію і `../StudyMate/STUDYMATE.md`
   (реальний код).
 - Демо і тестування (слайди 5-6): прогін тестового списку питань триває
   (сесія з живою діагностикою падіння вебпошуку DuckDuckGo → перехід на

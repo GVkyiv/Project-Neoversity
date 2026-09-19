@@ -10,7 +10,7 @@ status: draft
 
 Джерело фактів: [final_project_brief.md](final_project_brief.md) (критерії,
 журнал тестування, оцінка вартості), [hw02_studymate_product_arch.md](../tier2/ai-fundamentals/homework/hw02_studymate_product_arch.md)
-(початковий product brief), `../StudyMate/README.md` (реальний код),
+(початковий product brief), `../StudyMate/STUDYMATE.md` (реальний код),
 [DECISIONS_LOG.md](../DECISIONS_LOG.md) (наскрізні висновки курсу).
 
 ---

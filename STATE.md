@@ -13,12 +13,12 @@ _Останнє оновлення: 28.08.2026. Онови вручну, кол�
 
 Паралельно вчуся в магістратурі Neoversity: **Master of Science in Computer
 Science (Specialization in AI Product Management)**, диплом Woolf University.
-Пройдено Tier 1 повністю ([Python](tier1/python-programming/README.md),
-[JavaScript](tier1/javascript-fundamentals/README.md),
-[Human-Computer Interaction Design](tier1/human-computer-interaction-design/README.md)
+Пройдено Tier 1 повністю ([Python](tier1/python-programming/PYTHON.md),
+[JavaScript](tier1/javascript-fundamentals/JAVASCRIPT.md),
+[Human-Computer Interaction Design](tier1/human-computer-interaction-design/HCI_DESIGN.md)
 — наскрізний проєкт Personal Finance Hub, макети в Figma, коридорне
 тестування, дві рецензії на наукові публікації). Зараз на **Tier 2**, курс
-[**AI Fundamentals**](tier2/ai-fundamentals/README.md), фінальний проєкт
+[**AI Fundamentals**](tier2/ai-fundamentals/AI_FUNDAMENTALS.md), фінальний проєкт
 (StudyMate): роботу завершено, 11.08.2026 ментор підтвердив допуск до захисту.
 Захист 17.08.2026, того ж дня здача в LMS одним zip: презентація плюс ноутбук
 з теми 8 (`Final_Воленбовський_Варіант3.ipynb`, посилань недостатньо, потрібні
@@ -33,7 +33,7 @@ Science (Specialization in AI Product Management)**, диплом Woolf Universi
 бази знань з економічної освіти, щоб контролювати якість. Побудований на
 принципі «відповідає тільки на основі бази знань» — прямий паралель до
 реальних enterprise-кейсів в ERC (див. `erc-work/context.md`, список зростає).
-Деталі архітектури — [capstone-studymate/README.md](capstone-studymate/README.md).
+Деталі архітектури — [capstone-studymate/CAPSTONE_STUDYMATE.md](capstone-studymate/CAPSTONE_STUDYMATE.md).
 
 ## Що вже зроблено (Tier 2, AI Fundamentals)
 

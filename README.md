@@ -45,34 +45,34 @@ title: "Neoversity MSc: навчання + ERC"
 [prompts/](prompts/README.md) (багаторазові промпти) ·
 `erc-work/context.md` (міст курс↔робота) ·
 [ai-trends/](ai-trends/README.md) (розбір AI-відео з YouTube) ·
-[capstone-studymate/](capstone-studymate/README.md) (наскрізний диплом StudyMate) ·
+[capstone-studymate/](capstone-studymate/CAPSTONE_STUDYMATE.md) (наскрізний диплом StudyMate) ·
 [to-learn/backlog.md](to-learn/backlog.md) (інструменти, які хочу освоїти).
 
 Інструкції для ІІ-агентів: [AGENTS.md](AGENTS.md), Claude Code читає його
 через міст [CLAUDE.md](CLAUDE.md).
 
 **Tier 1:**
-[Python Programming](tier1/python-programming/README.md) ·
-[JavaScript Fundamentals](tier1/javascript-fundamentals/README.md) ·
-[Human-Computer Interaction Design](tier1/human-computer-interaction-design/README.md)
+[Python Programming](tier1/python-programming/PYTHON.md) ·
+[JavaScript Fundamentals](tier1/javascript-fundamentals/JAVASCRIPT.md) ·
+[Human-Computer Interaction Design](tier1/human-computer-interaction-design/HCI_DESIGN.md)
 
 **Tier 2:**
-[AI Fundamentals](tier2/ai-fundamentals/README.md) (поточна) ·
-[Generative and Agentic AI](tier2/generative-agentic-ai/README.md) ·
-[MLOps CI/CD](tier2/mlops-cicd/README.md) ·
-[Interaction Design and Design Thinking for UX/UI](tier2/interaction-design-thinking-uxui/README.md) ·
-[UX Research Methods and Usability Testing](tier2/ux-research-usability-testing/README.md) ·
-[AI Interfaces Design](tier2/ai-interfaces-design/README.md) ·
-[Agile Product Management](tier2/agile-product-management/README.md) ·
-[Product Marketing](tier2/product-marketing/README.md) ·
-[Product Analytics](tier2/product-analytics/README.md)
+[AI Fundamentals](tier2/ai-fundamentals/AI_FUNDAMENTALS.md) (поточна) ·
+[Generative and Agentic AI](tier2/generative-agentic-ai/GENERATIVE_AGENTIC_AI.md) ·
+[MLOps CI/CD](tier2/mlops-cicd/MLOPS.md) ·
+[Interaction Design and Design Thinking for UX/UI](tier2/interaction-design-thinking-uxui/UXUI_DESIGN_THINKING.md) ·
+[UX Research Methods and Usability Testing](tier2/ux-research-usability-testing/UX_RESEARCH.md) ·
+[AI Interfaces Design](tier2/ai-interfaces-design/AI_INTERFACES.md) ·
+[Agile Product Management](tier2/agile-product-management/AGILE_PM.md) ·
+[Product Marketing](tier2/product-marketing/PRODUCT_MARKETING.md) ·
+[Product Analytics](tier2/product-analytics/PRODUCT_ANALYTICS.md)
 
 **Tier 3:**
-[Market Strategy Capstone](tier3/market-strategy-capstone/README.md) ·
-[Business Case Studies](tier3/business-case-studies/README.md) ·
-[Data Privacy and AI Regulation](tier3/data-privacy-ai-regulation/README.md) ·
-[Responsible AI Leadership](tier3/responsible-ai-leadership/README.md) ·
-[Applied Computer Science Capstone](tier3/applied-cs-capstone/README.md)
+[Market Strategy Capstone](tier3/market-strategy-capstone/MARKET_STRATEGY_CAPSTONE.md) ·
+[Business Case Studies](tier3/business-case-studies/BUSINESS_CASE_STUDIES.md) ·
+[Data Privacy and AI Regulation](tier3/data-privacy-ai-regulation/AI_REGULATION.md) ·
+[Responsible AI Leadership](tier3/responsible-ai-leadership/RESPONSIBLE_AI.md) ·
+[Applied Computer Science Capstone](tier3/applied-cs-capstone/CS_CAPSTONE.md)
 
 ## Як цим користуватись
 

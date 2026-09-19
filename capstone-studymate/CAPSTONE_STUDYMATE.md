@@ -63,11 +63,11 @@ UI-перемикач `share_member_interactions` дозволяє живцем 
 ліміт при частому тестуванні поспіль.
 
 Детальний опис запуску, залежностей і повний код — у
-`../StudyMate/README.md`.
+`../StudyMate/STUDYMATE.md`.
 
 ## Файли ДЗ
 
-Дивись [tier2/ai-fundamentals](../tier2/ai-fundamentals/README.md) — там лежать реальні завантажені
+Дивись [tier2/ai-fundamentals](../tier2/ai-fundamentals/AI_FUNDAMENTALS.md) — там лежать реальні завантажені
 файли: [hw02_studymate_product_arch.md](../tier2/ai-fundamentals/homework/hw02_studymate_product_arch.md) (продукт і архітектура),
 [hw06_risks.md](../tier2/ai-fundamentals/homework/hw06_risks.md) (ризики), ДЗ7-ДЗ8 (embeddings,
 семантичний пошук, LangChain/LangGraph агент), [hw10_streamlit_app/](../tier2/ai-fundamentals/homework/hw10_streamlit_app/README.md)
