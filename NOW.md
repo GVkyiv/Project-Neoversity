@@ -2,6 +2,8 @@
 area: study
 project: Project Neoversity
 updated: 2026-09-14
+state: active
+deadline: "2026-09-20"
 ---
 
 # NOW — Project Neoversity
