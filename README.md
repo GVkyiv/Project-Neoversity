@@ -31,7 +31,7 @@ title: "Neoversity MSc: навчання + ERC"
 
 Репозиторій публічний: навчальні роботи, розбори і капстоун відкриті
 навмисно. Гілка `erc-work/` ведеться тільки на диску і в git не
-потрапляє — там робочі матеріали по внутрішніх системах роботодавця.
+потрапляє: там робочі матеріали по внутрішніх системах роботодавця.
 Причина записана в `.gitignore`. Посилання на файли цієї гілки в тексті
 залишені як звичайні шляхи, а не як лінки: у клонованому репозиторії
 їх не буде.
@@ -49,15 +49,17 @@ title: "Neoversity MSc: навчання + ERC"
 [to-learn/backlog.md](to-learn/backlog.md) (інструменти, які хочу освоїти).
 
 Інструкції для ІІ-агентів: [AGENTS.md](AGENTS.md), Claude Code читає його
-через міст [CLAUDE.md](CLAUDE.md).
+через міст [CLAUDE.md](CLAUDE.md). Стан для Dashboard: [NOW.md](NOW.md).
+Контрольні завдання для агента: [agent-checks.md](agent-checks.md),
+проганяти в новій сесії після правки `AGENTS.md`.
 
 **Tier 1:**
 [Python Programming](tier1/python-programming/PYTHON.md) ·
 [JavaScript Fundamentals](tier1/javascript-fundamentals/JAVASCRIPT.md) ·
 [Human-Computer Interaction Design](tier1/human-computer-interaction-design/HCI_DESIGN.md)
 
-**Tier 2:**
-[AI Fundamentals](tier2/ai-fundamentals/AI_FUNDAMENTALS.md) (поточна) ·
+**Tier 2** (поточна дисципліна: див. [STATE.md](STATE.md)):
+[AI Fundamentals](tier2/ai-fundamentals/AI_FUNDAMENTALS.md) ·
 [Generative and Agentic AI](tier2/generative-agentic-ai/GENERATIVE_AGENTIC_AI.md) ·
 [MLOps CI/CD](tier2/mlops-cicd/MLOPS.md) ·
 [Interaction Design and Design Thinking for UX/UI](tier2/interaction-design-thinking-uxui/UXUI_DESIGN_THINKING.md) ·
@@ -84,16 +86,16 @@ title: "Neoversity MSc: навчання + ERC"
 - `erc-work/` наповнюється вручну: реальні задачі з ERC, які можна
   розв'язати тим, що вивчено на курсі.
 - Tier 1 (Python, JavaScript, HCI) пройдено повністю і повністю наповнено
-  реальними ДЗ. Більшість Tier 2/3, окрім AI Fundamentals, наразі це лише
-  каркас папок з описом курсу з офіційної таблиці. Наповнення (конспекти,
-  ДЗ) йде по мірі завершення курсів.
+  реальними ДЗ. Дисципліни без файлів у `homework/` поки лише каркас
+  папок з описом курсу з офіційної таблиці; наповнення йде по мірі
+  проходження.
 
 ## Секрети (API-ключі)
 
 `.env` у корені містить реальні `OPENAI_API_KEY` і `GOOGLE_API_KEY` для
-завдань AI Fundamentals. Файл у `.gitignore` (рядок `.env`), тому в git він
-ніколи не потрапить, навіть якщо цей репозиторій пізніше опублікувати на
-GitHub. `.env.example` показує лише назви змінних, без значень, для
+завдань AI Fundamentals. Репозиторій публічний, тому файл у `.gitignore`
+(рядок `.env`) і в git не потрапляє. Так само закриті
+`gcp-service-account*.json`. `.env.example` показує лише назви змінних, без значень, для
 довідки/публікації. У коді читати ключі через `os.environ` /
 `python-dotenv` (`load_dotenv()`), ніколи не хардкодити значення в `.py`/
 `.ipynb`, які потрапляють у git.
