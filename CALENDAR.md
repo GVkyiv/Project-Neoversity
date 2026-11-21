@@ -35,8 +35,8 @@
 |---|---|---|---|---|
 | AI Fundamentals | 30.06.2026 | 16.08.2026 | ▶ в процесі (тема 10 станом на 30.07.2026) | #1 |
 | Generative and Agentic AI | 18.08.2026 | 04.10.2026 | ▶ в процесі (тема 4 станом на 28.08.2026) | #1 |
-| MLOps CI/CD | 06.10.2026 | 22.11.2026 | ⏳ заплановано | #1 |
-| Interaction Design and Design Thinking for UX/UI | 24.11.2026 | 27.12.2026 | ⏳ заплановано | #1 |
+| MLOps CI/CD | 06.10.2026 | 22.11.2026 | ✅ завершено (ДЗ10 здано) | #1 |
+| Interaction Design and Design Thinking for UX/UI | 24.11.2026 | 27.12.2026 | ▶ в процесі (старт 21.11.2026) | #1 |
 | UX Research Methods and Usability Testing | 12.01.2027 | 21.02.2027 | ⏳ заплановано | #1 |
 | AI Interfaces Design | 23.02.2027 | 04.04.2027 | ⏳ заплановано | #1 |
 | Agile Product Management for Software Development Teams | 06.04.2027 | 02.05.2027 | ⏳ заплановано | #1 |
